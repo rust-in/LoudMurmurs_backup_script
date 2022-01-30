@@ -34,7 +34,7 @@ def download(url: str, fname: str):
 for idx, one in enumerate(data.entries):
     print('Total download procress: ' + str(idx+1) + ' / ' + str(len(data.entries)))
 
-    title = one.title
+    title = one.title.replace('"', '')
     url = one.links[0].href
 
     save_name = title + ".mps"
