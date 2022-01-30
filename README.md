@@ -1,5 +1,5 @@
 # LoudMurmurs_backup_script
-A downloading script for podcast LoudMurmurs.
+A downloading script for podcast LoudMurmurs - 小声喧哗.
 
 Requirements:
   * tqdm
