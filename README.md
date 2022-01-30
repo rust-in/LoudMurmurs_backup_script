@@ -1,4 +1,4 @@
-# LoudMumurs_backup_script
+# LoudMurmurs_backup_script
 A downloading script for podcast LoudMurmurs.
 
 Requirements:
