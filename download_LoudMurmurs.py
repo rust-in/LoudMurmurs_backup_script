@@ -35,8 +35,9 @@ for idx, one in enumerate(data.entries):
     print('Total download procress: ' + str(idx+1) + ' / ' + str(len(data.entries)))
 
     title = one.title
-    title = title.replace('"', '')
-    title = title.replace('/', '')
+    title = title.replace('"', ' ')
+    title = title.replace('/', ' ')
+    title = title.replace(':', '：')
     url = one.links[0].href
 
     save_name = title + ".mp3"
